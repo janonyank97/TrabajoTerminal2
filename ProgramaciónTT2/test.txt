@@ -1,0 +1,61 @@
+README 
+Nombre clave: PLUMAS
+Joel de Lucio - Brandon Oropeza 
+
+// TEST para verificar el correcto funcionamiento de cada parte del prototipo //
+
+Boton 1 -  A1   - PF1    
+Boton 2 -  A3   - PF3
+Boton 3 -  A5   - PF5
+----------------------
+Nivel 1 -  A7   - PF7
+Nivel 2 -  A9   - PK1
+Nivel 3 -  A11  - PK3
+----------------------
+LSwitch -  A13  - PK5
+----------------------
+LCD 
+     E    - PB1
+     R /W - PB2
+     RS   - PB3
+     /RST - PB2   // No conected
+     DB4 - PF0
+     DB5 - PF2
+     DB6 - PF4
+     DB7 - PF6
+----------------------
+Teclado 
+Pin 8.D17  PH0   C1
+Pin 7.D19  PD2   C2
+Pin 6.D21  PD0   C3
+Pin 5.D23  PA1   C4
+Pin 4.D25  PA3   ROW-L1 
+Pin 3.D27  PA5   ROW-L2 
+Pin 2.D29  PA7   ROW-L3 
+Pin 1.D31  PC6   ROW-L4  
+
+1-9 == 31-39
+* == 2A
+# == 23
+
+
+----------------------
+Temp Sensor
+DATA PIN D2-D3  PE5 - PE4
+______________________________________________
+
+Modulo Reles
+Pin 1 - D32 - PC5
+Pin 2 - D34 - PC3
+Pin 3 - D36 - PC1
+Pin 4 - D38 - PD7
+Pin 5 - D40 - PG1
+Pin 6 - D42 - PL7
+Pin 7 - D44 - PL5
+Pin 8 - D46 - PL3
+----------------------
+Elec.valv - A12 - PK4 
+----------------------
+LED UV  - A14 - PK6
+
+----------------------
